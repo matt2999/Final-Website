@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Food in Morgantown</title>
+  </head>
+  <body>
+    <form action="/action_page.php" method="get" target="_blank">
+    <div align="center">
+      <h1>Food in Morgantown</h1>
+      Name:
+      <label for="name"></label>
+      <input type="text" id="name" name = "name">
+      <br><br>
+      <label for = "address">Address:</label>
+      <input type= "text" id="address" address = "address">
+      <br><br>
+      Do you like pie?
+      <input type="radio" name="exe" value=1>Yes
+      <input type="radio" name="exe" value=0>No<br><br>
+      What is your favorite type of food?
+      <!--Checkox lets you select multiple options-->
+      <input type="checkbox"name"Books">Fried Chicken
+      <input type="checkbox"name"Books">Burgers
+      <input type="checkbox"name"Books">Sandwiches
+      <input type="checkbox"name"Books">Mexican
+      <input type="checkbox"name"Books">Other
+      <textarea name="Comments"cols=20 rows=1></textarea><br><br><br><br>
+      <!--Select box lets you choose from a drop down menu-->
+      What is your favorite place in Morgantown from this list?
+      <select name="moviepref"><option>
+        <option value=1 selected="true">Kegglers</option>
+        <option value=2>Black Bear Burritos</option>
+        <option value=3>Mountain State Brewing Co</option>
+        <option value=4>Los Mariachi's</option>
+        <option value=5>Wongs Wok</option>
+      </option></select>
+      <br><br>
+      <input type="submit" value="Submit Form">
+      </div>
+      </form>
+  </body>
+</html>
