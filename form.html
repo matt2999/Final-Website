@@ -2,6 +2,13 @@
 <html>
   <head>
     <title>Food in Morgantown</title>
+    <style>
+    #navbar{height:20px;clear:both}
+      #navbar ul{margin:0;padding:0;list-style-type:none;}
+      #navbar ul li{padding:10px;float:left;}
+      #navbar ul li a{font-size:14px;float:left;padding:0 0 0 150px;display:block;}
+    #footer{padding:90px;clear:both;}
+    </style>
   </head>
   <body>
     <form action="/action_page.php" method="get" target="_blank">
@@ -14,21 +21,21 @@
       <label for = "address">Address:</label>
       <input type= "text" id="address" address = "address">
       <br><br>
-      Do you like pie?
-      <input type="radio" name="exe" value=1>Yes
-      <input type="radio" name="exe" value=0>No<br><br>
+      Do you like wings bone in or boneless?
+      <input type="radio" name="exe" value=1>Bone in
+      <input type="radio" name="exe" value=0>Boneless<br><br>
       What is your favorite type of food?
       <!--Checkox lets you select multiple options-->
       <input type="checkbox"name"Books">Fried Chicken
       <input type="checkbox"name"Books">Burgers
       <input type="checkbox"name"Books">Sandwiches
       <input type="checkbox"name"Books">Mexican
-      <input type="checkbox"name"Books">Other
+      <input type="checkbox"name"Books">Other (Specify)
       <textarea name="Comments"cols=20 rows=1></textarea><br><br>
       <!--Select box lets you choose from a drop down menu-->
       What is your favorite place in Morgantown from this list?
       <select name="moviepref"><option>
-        <option value=1 selected="true">Kegler's</option>
+        <option value=1>Kegler's</option>
         <option value=2>Black Bear Burritos</option>
         <option value=3>Mountain State Brewing Co</option>
         <option value=4>Los Mariachi's</option>
@@ -39,8 +46,15 @@
       <input type= "text" id="address" address = "address"><br><br>
       <input type="submit" value="Submit Form">
       <br><br>
-      <a href="index.html">HOME</a>
       </div>
       </form>
+      <div id="footer"><div id="navbar">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="form.html">USER FORM</a></li>
+            <li><a href="URL">LINK GOES HERE</a></li>
+            <li><a href="URL">LINK GOES HERE</a></li>
+          </ul>
+        </div>
   </body>
 </html>
